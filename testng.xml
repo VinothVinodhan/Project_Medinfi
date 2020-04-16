@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo Suite">
+
+<test name="Data driven test">
+    <classes>
+        <class name="com.sp.testng.DataProviderDemo" ></class> 
+         <class name="com.sp.testng.DataProviderUsageFromOtherClass" ></class>  
+    </classes>
+</test>
+<test name="First Test">
+    <classes>
+        <class name="com.sp.testng.TestAnnotationDemo" ></class>  
+    </classes>
+</test>
+<test name="Second Test">
+    <classes>
+        <class name="com.sp.testng.TestNGDemo" ></class>  
+    </classes>
+</test>
+<test name="Third Test">
+    <classes>
+        <class name="com.sp.testng.BeforeAfterAnnotationsDemo" ></class>  
+    </classes>
+</test>
+</suite>
